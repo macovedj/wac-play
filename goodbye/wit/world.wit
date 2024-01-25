@@ -1,7 +1,11 @@
 package component:goodbye
 
+interface greeter {
+  hello-world: func() -> string
+}
+
 /// An example world for the component to target.
 world example {
-    import wasi:hello/greeter;
+    import greeter;
     export goodbye-world: func() -> string
 }
