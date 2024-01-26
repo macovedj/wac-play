@@ -1,11 +1,6 @@
-package component:goodbye
-
-interface greeter {
-  hello-world: func() -> string
-}
+package component:goodbye;
 
 /// An example world for the component to target.
 world example {
-    import greeter;
-    export goodbye-world: func() -> string
+    export goodbye-world: func() -> string;
 }

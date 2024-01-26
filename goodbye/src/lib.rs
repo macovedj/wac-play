@@ -1,13 +1,13 @@
-cargo_component_bindings::generate!();
+mod bindings;
 
-use bindings::component::goodbye::greeter;
+use bindings::hello_greeter::hello_world;
 use bindings::Guest;
 
 struct Component;
 
 impl Guest for Component {
-    /// Say goodbye!
+    /// Say hello!
     fn goodbye_world() -> String {
-        greeter::hello_world()
+        hello_world()
     }
 }
