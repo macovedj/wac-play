@@ -1,0 +1,6 @@
+package dannyjaf:complex;
+
+let people = new dannyjaf:people-maker {...};
+let sort = new dannyjaf:sorter {"dannyjaf:people-maker/person": person.person,  ...};
+
+export sort as final;

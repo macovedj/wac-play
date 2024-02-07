@@ -3,9 +3,9 @@
 version = 1
 
 [[package]]
-id = "wasi:hello"
+id = "dannyjaf:hello"
 
 [[package.version]]
-requirement = "^1.0.3"
-version = "1.0.3"
-digest = "sha256:543dd18e96fe793faf018bea5ff4ea7b61b5605063fa88a60cd48b132a5617ae"
+requirement = "^1.0.0"
+version = "1.0.0"
+digest = "sha256:891d9c6b43bedf1fe52c4f27389962e0915aaecf3d9a657fa22543489b5d9059"

@@ -1,0 +1,7 @@
+package component:sorter;
+
+/// An example world for the component to target.
+world example {
+    //use dannyjaf:people-maker/people.{person};
+    export foo: func() -> person;
+}

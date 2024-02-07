@@ -1,0 +1,1 @@
+{"name":"component","interfaces":[],"type_defs":{"use_decls":[],"decomposed_types":[]},"funcs":[{"name":"hello-world","docs":"","params":[],"result":[["",{"owner":null,"name":null,"docs":null,"val":"string","children":null,"methods":null}]]}]}

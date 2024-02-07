@@ -1,6 +1,7 @@
 mod bindings;
 
-use bindings::hello_greeter::hello_world;
+// use bindings::wasi_hello_greeter::hello_world;
+use bindings::dannyjaf_hello_greeter::hello_world;
 use bindings::Guest;
 
 struct Component;

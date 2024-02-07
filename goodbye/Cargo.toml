@@ -15,4 +15,4 @@ crate-type = ["cdylib"]
 package = "component:goodbye"
 
 [package.metadata.component.dependencies]
-"wasi:hello" = "1.0.3"
+"dannyjaf:hello" = "1.0.0"

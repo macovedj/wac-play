@@ -1,6 +1,6 @@
-package wasi:simple;
+package dannyjaf:simple;
 
-let greeter = new wasi:hello {...};
-let goodbye = new wasi:goodbye {hello-greeter: greeter.greeter,  ...};
+let greeter = new dannyjaf:hello {...};
+let goodbye = new dannyjaf:goodbye {"dannyjaf:hello/greeter": greeter.greeter,  ...};
 
 export goodbye as salutation;

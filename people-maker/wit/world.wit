@@ -1,0 +1,15 @@
+package component:people-maker;
+
+interface people {
+  record person {
+    name: string,
+    age: u32
+  }
+
+  new-person: func(name: string, age: u32) -> person;
+}
+/// An example world for the component to target.
+world example {
+  import people;
+  export people;
+}
